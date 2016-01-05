@@ -1,10 +1,50 @@
 /* Navigation Bar */
 .nav {
-    background-color: #8f8f8f;
+    background-color: #9f9f9f;
     color: #ffffff;
-    font-size: 11px;
-    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    font: Helvetica;
     padding: 14px 10px;
     text-transform: uppercase;
+    border: transparent;
+}
+.nav .container {
+    position: relative;
+    top: 8px;
+}
+.nav li {
+    display: inline;
 }
 
+/* Jumbotron/Home Page */
+.jumbotron {
+    background-image: url('http://goo.gl/04j7Nn');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: transparent;
+}
+.jumbotron .container {
+    position: relative;
+    top: 80px;
+}
+.jumbotron h1 {
+    outline: none;
+    margin: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+.jumbotron p {
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20;
+    text-align: center;
+}
+.jumbotron ul {
+    align-content: center;
+    display: inline;
+}
