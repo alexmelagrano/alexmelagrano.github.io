@@ -1,11 +1,14 @@
+
+
 /* Navigation Bar */
 .nav {
-    background-color: #9f9f9f;
-    color: #ffffff;
-    font-size: 16px;
-    font-family: sans-serif;
-    font: Helvetica;
-    padding: 14px 10px;
+    background-color: #4f4f4f;
+    color: #efefef;
+    font-family: Avantgarde, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    padding: 0px 10px;
     text-transform: uppercase;
     border: transparent;
 }
@@ -16,20 +19,24 @@
 .nav li {
     display: inline;
 }
+.nav a {
+    color: #efefef;
+    border: transparent;
+}
 
 /* Jumbotron/Home Page */
 .jumbotron {
     background-image: url('https://scontent-iad3-1.xx.fbcdn.net/hphotos-ash2/t31.0-8/10496956_840708915985440_2068546876110610750_o.jpg');
-    height: 500px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #efefef;
     border: transparent;
 }
 .jumbotron .container {
     position: relative;
-    top: 80px;
+    top: 100px;
 }
 .jumbotron h1 {
     outline: none;
@@ -41,10 +48,39 @@
     outline: none;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 20;
+    font-size: 22;
     text-align: center;
 }
-.jumbotron ul {
-    align-content: center;
-    display: inline;
+
+/* About Me */
+.about-me {
+    background-color: #6f6f6f;
+    border: transparent;
+    height: 300px;
 }
+.about-me .container {
+    position: relative;
+    top: 20px;
+    font-family: Avantgarde, sans-serif;
+    text-align: center;
+    font-style: normal;
+    
+}
+.about-me h3 {
+    font-size: 24px;
+    font-weight: 400;    
+    color: #efefef;
+    text-transform: uppercase;
+    border: 2px;
+    border-color: #efefef;
+}
+.about-me p {
+    font-size: 18px;
+    font-weight: 200;
+    color: #efefef;
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+
