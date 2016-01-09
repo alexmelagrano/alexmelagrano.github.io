@@ -11,6 +11,8 @@
     padding: 0px 10px;
     text-transform: uppercase;
     border: transparent;
+    position: fixed;
+    z-index: 2;
 }
 .nav .container {
     position: relative;
