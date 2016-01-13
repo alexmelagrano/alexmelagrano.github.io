@@ -2,29 +2,35 @@
 <html>
 	<head>
         <title>Personal Website</title>
-            <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+        <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	<body>
         <!-- Navigation Bar -->
-<!--
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">Alex Melagrano</a>
                 </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul class="nav navbar-nav pull-right">
+                    <li class="active"><a href="#jumbotron">Home</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#services">Services</a></li>                       
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#projects">Programming</a></li>
+                            <li><a href="#photography">Photography</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
--->
+<!--
         <div class="nav">
             <div class="container">
                 <ul class="pull-left">
@@ -46,9 +52,10 @@
                 </ul>
             </div>
         </div>
+-->
         <!-- Main Headline -->
         <div class="jumbotron" id="jumbotron">
-            <div class="container" style="text-align: center;">
+            <div class="container">
                 <p>Hello, my name is</p>
                 <h1>Alex Melagrano</h1>
                 <p>and I am a</p>
@@ -65,14 +72,22 @@
         <div class="about-me" id="about-me">
             <div class="container">
                 <h3>About Me</h3>
-                <p>I am pursuing a Bachelors of Science Degree of Computer Science with a minor in Philosophy at Northeastern University.  I have been programming for a year and a half, and primarily enjoy the problem-solving aspect of Computer Science.  I am curious, creative, and thorough, and learn from my mistakes. I take pride in hard work, am self-motivated, and above all, love to explore. </p>
+                <p>I am pursuing a <em><strong style="color: #8fdfef">Bachelors of Science Degree of Computer Science with a Minor in Philosophy</strong></em> at Northeastern University, and am expected to graduate in the Spring of 2019.  I have been programming for a year and a half, and primarily enjoy the problem-solving aspect of Computer Science.  I am a curious, creative, and thorough individual, and learn from my mistakes. I take pride in hard work, am self-motivated, and above all, love to explore. </p>
+                <a href="#" class="btn btn-info" role="button">RESUME</a>
             </div>
         </div>
         <!-- Services -->
         <div class="services" id="services">
             <div class="container">
                 <h3>Services</h3>
-                <p>list of services will go here</p>
+                <div class="row">
+                    <div class="col-sm-6" style="background-color:yellow;">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                    <div class="col-sm-6" style="background-color:pink;">
+                        <p>Sed ut perspiciatis...</p>
+                    </div>                   
+                </div>
             </div>
         </div>         
         <!-- Projects -->

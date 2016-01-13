@@ -8,8 +8,8 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 100;
-    padding: 0px 10px;
     text-transform: uppercase;
+    width: 100%;
     border: transparent;
     position: fixed;
     z-index: 2;
@@ -17,6 +17,10 @@
 .nav .container {
     position: relative;
     top: 8px;
+    width: 100%;
+}
+.nav ul {
+    
 }
 .nav li {
     display: inline;
@@ -29,60 +33,102 @@
 /* Jumbotron/Home Page */
 .jumbotron {
     background-image: url('https://scontent-iad3-1.xx.fbcdn.net/hphotos-ash2/t31.0-8/10496956_840708915985440_2068546876110610750_o.jpg');
-    height: 600px;
+    height: 705px;
     background-repeat: no-repeat;
     background-size: cover;
     text-transform: uppercase;
     color: #efefef;
     border: transparent;
+    margin-bottom: 0px !important;
 }
 .jumbotron .container {
     position: relative;
-    top: 100px;
+    top: 150px;
 }
 .jumbotron h1 {
     outline: none;
-    margin: 10px;
-    font-size: 50px;
+    margin: 30px;
+    font-size: 70px;
     text-align: center;
 }
 .jumbotron p {
     outline: none;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 22;
+    font-size: 26px;
     text-align: center;
+}
+.jumbotron ul {
+    margin-top: 30px;
+    text-align: center;
+}
+.jumbotron li {
+    font-size: 16px;
 }
 
 /* About Me */
 .about-me {
     background-color: #6f6f6f;
-    border: transparent;
-    height: 300px;
+    height: 705px;
 }
 .about-me .container {
     position: relative;
-    top: 20px;
-    font-family: Avantgarde, sans-serif;
+    top: 120px;
+    bottom: 100px;
     text-align: center;
     font-style: normal;
-    
 }
 .about-me h3 {
-    font-size: 24px;
-    font-weight: 400;    
+    font-family: Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: 705;    
     color: #efefef;
     text-transform: uppercase;
-    border: 2px;
+    border: 10px;
     border-color: #efefef;
+    margin-bottom: 90px;
 }
 .about-me p {
-    font-size: 18px;
+    font-family: Avantgarde, sans-serif;
+    font-size: 22px;
     font-weight: 200;
     color: #efefef;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/* Services */
+.services {
+    background-color: #8fdfef;
+    border: transparent;
+    height: 705px;
+}
+.services .container {
+    position: relative;
+    top: 120px;
+    bottom: 100px;
+    text-align: center;
+    font-style: normal;
+}
+.services h3 {
+    font-family: Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: 600;    
+    color: #6f6f6f;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px;
+    border-color: #efefef;
+    margin-bottom: 90px;
+}
+.services p {
+    font-family: Avantgarde, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #6f6f6f;
     margin-top: 30px;
     margin-left: 35px;
     margin-right: 35px;
 }
-
 
