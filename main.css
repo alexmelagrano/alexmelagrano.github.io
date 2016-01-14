@@ -1,33 +1,36 @@
 
 
 /* Navigation Bar */
-.nav {
+.navbar {
     background-color: #4f4f4f;
     color: #efefef;
     font-family: Avantgarde, sans-serif;
-    font-size: 18px;
+    font-size: 18px !important;
     font-style: normal;
     font-weight: 100;
-    text-transform: uppercase;
-    width: 100%;
-    border: transparent;
-    position: fixed;
+    letter-spacing: 4px;
+    text-transform: uppercase; 
     z-index: 2;
-}
-.nav .container {
-    position: relative;
-    top: 8px;
+    position: fixed;
+    margin-bottom: 0;
+    border: transparent;
     width: 100%;
 }
-.nav ul {
-    
+.navbar li a, .navbar .navbar-brand {
+    color: #efefef !important;
 }
-.nav li {
-    display: inline;
+.navbar .navbar-brand {
+    margin-top: 4px;
 }
-.nav a {
-    color: #efefef;
-    border: transparent;
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #8fdfef !important;
+    font-weight: 200 !important;
+    background-color: #3f3f3f !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #efefef !important;
 }
 
 /* Jumbotron/Home Page */
@@ -80,9 +83,10 @@
 }
 .about-me h3 {
     font-family: Verdana, sans-serif;
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 705;    
     color: #efefef;
+    letter-spacing: 3px;
     text-transform: uppercase;
     border: 10px;
     border-color: #efefef;
@@ -113,9 +117,10 @@
 }
 .services h3 {
     font-family: Verdana, sans-serif;
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 600;    
     color: #6f6f6f;
+    letter-spacing: 3px;
     text-transform: uppercase;
     text-align: center;
     border: 2px;
