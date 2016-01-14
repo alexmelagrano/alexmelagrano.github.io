@@ -32,7 +32,7 @@
 
 /* Jumbotron/Home Page */
 .jumbotron {
-    background-image: url('https://scontent-iad3-1.xx.fbcdn.net/hphotos-ash2/t31.0-8/10496956_840708915985440_2068546876110610750_o.jpg');
+    background-image: url('http://i.imgur.com/L1vUROX.jpg');
     height: 705px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -149,4 +149,36 @@
     background-color: #7ecede;
 }
 
+
+
+/* Footer */
+.footer {
+    background-image: url('http://i.imgur.com/XE06GMb.jpg');
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: transparent;
+    height: 300px;
+}
+.footer .container {
+    position: relative;
+    top: 80px;
+    bottom: 80px;
+    text-align: center;
+    font-style: normal;
+}
+.footer h6 {
+    font-family: Avantgarde, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5f5f5f;  
+/*    text-transform: uppercase;*/
+}
+.footer p {
+    font-family: Avantgarde, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #5f5f5f;  
+    text-transform: uppercase;
+}
 
