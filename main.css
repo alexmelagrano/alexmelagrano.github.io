@@ -1,6 +1,5 @@
-
-
 /* Navigation Bar */
+
 .navbar {
     background-color: #4f4f4f;
     color: #efefef;
@@ -9,20 +8,25 @@
     font-style: normal;
     font-weight: 100;
     letter-spacing: 4px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     z-index: 2;
     position: fixed;
     margin-bottom: 0;
     border: transparent;
     width: 100%;
 }
-.navbar li a, .navbar .navbar-brand {
+
+.navbar li a,
+.navbar .navbar-brand {
     color: #efefef !important;
 }
+
 .navbar .navbar-brand {
     margin-top: 4px;
 }
-.navbar-nav li a:hover, .navbar-nav li.active a {
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
     color: #8fdfef !important;
     font-weight: 200 !important;
     background-color: #3f3f3f !important;
@@ -33,7 +37,9 @@
     color: #efefef !important;
 }
 
+
 /* Jumbotron/Home Page */
+
 .jumbotron {
     background-image: url('http://i.imgur.com/L1vUROX.jpg');
     height: 705px;
@@ -44,16 +50,19 @@
     border: transparent;
     margin-bottom: 0px !important;
 }
+
 .jumbotron .container {
     position: relative;
     top: 150px;
 }
+
 .jumbotron h1 {
     outline: none;
     margin: 30px;
     font-size: 70px;
     text-align: center;
 }
+
 .jumbotron p {
     outline: none;
     margin-top: 20px;
@@ -61,19 +70,24 @@
     font-size: 26px;
     text-align: center;
 }
+
 .jumbotron ul {
     margin-top: 30px;
     text-align: center;
 }
+
 .jumbotron li {
     font-size: 16px;
 }
 
+
 /* About Me */
+
 .about-me {
     background-color: #6f6f6f;
     height: 705px;
 }
+
 .about-me .container {
     position: relative;
     top: 120px;
@@ -81,10 +95,11 @@
     text-align: center;
     font-style: normal;
 }
+
 .about-me h3 {
     font-family: Verdana, sans-serif;
     font-size: 38px;
-    font-weight: 705;    
+    font-weight: 705;
     color: #efefef;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -92,6 +107,7 @@
     border-color: #efefef;
     margin-bottom: 90px;
 }
+
 .about-me p {
     font-family: Avantgarde, sans-serif;
     font-size: 22px;
@@ -102,12 +118,15 @@
     margin-right: 120px;
 }
 
+
 /* Services */
+
 .services {
     background-color: #8fdfef;
     border: transparent;
     height: 705px;
 }
+
 .services .container {
     position: relative;
     top: 120px;
@@ -115,10 +134,11 @@
     text-align: center;
     font-style: normal;
 }
+
 .services h3 {
     font-family: Verdana, sans-serif;
     font-size: 38px;
-    font-weight: 600;    
+    font-weight: 600;
     color: #6f6f6f;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -127,15 +147,17 @@
     border-color: #efefef;
     margin-bottom: 100px;
 }
+
 .services h5 {
     font-family: Avantgarde, sans-serif;
     font-size: 28px;
     font-weight: bold;
-    color: #6f6f6f;  
+    color: #6f6f6f;
     text-transform: uppercase;
     margin-top: 30px;
     margin-bottom: 60px;
 }
+
 .services p {
     font-family: Avantgarde, sans-serif;
     font-size: 20px;
@@ -146,6 +168,7 @@
     margin-right: 35px;
     margin-bottom: 30px;
 }
+
 .services .container .row .col-sm-6 .service {
     border: 10px;
     border-style: solid;
@@ -155,8 +178,25 @@
 }
 
 
+/* Projects */
+
+.projects {
+    background-color: #dfdfdf;
+    border: transparent;
+    height: 1000px;
+}
+
+.projects .container {
+    position: relative;
+    top: 120px;
+    bottom: 100px;
+    text-align: center;
+    font-style: normal;
+}
+
 
 /* Footer */
+
 .footer {
     background-image: url('http://i.imgur.com/XE06GMb.jpg');
     background-blend-mode: soft-light;
@@ -165,25 +205,28 @@
     border: transparent;
     height: 300px;
 }
+
 .footer .container {
     position: relative;
-    top: 80px;
-    bottom: 80px;
+    top: 60px;
+    bottom: 60px;
     text-align: center;
     font-style: normal;
 }
+
 .footer h6 {
     font-family: Avantgarde, sans-serif;
     font-size: 16px;
     font-weight: bold;
-    color: #5f5f5f;  
-/*    text-transform: uppercase;*/
+    color: #5f5f5f;
+    margin-bottom: 10px;
 }
+
 .footer p {
     font-family: Avantgarde, sans-serif;
     font-size: 13px;
     font-weight: bold;
-    color: #5f5f5f;  
+    color: #5f5f5f;
     text-transform: uppercase;
+    margin-top: 15px;
 }
-
