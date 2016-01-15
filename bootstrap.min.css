@@ -1435,9 +1435,8 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 1000px;
-    height: auto;
-    left: 0;
+    height: 600px;
+    align-content: center !important;
 }
 
 .img-rounded {
@@ -3947,13 +3946,13 @@ fieldset[disabled] .btn-success:hover {
 .btn-info.focus,
 .btn-info:focus {
     color: #efefef;
-    background-color: #42c1e6;
+    background-color: #8fdfef;
     border-color: #1b6d85
 }
 
 .btn-info:hover {
     color: #efefef;
-    background-color: #42c1e6;
+    background-color: #8fdfef;
     border-color: #269abc
 }
 
