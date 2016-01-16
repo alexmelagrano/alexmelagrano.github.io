@@ -3945,13 +3945,13 @@ fieldset[disabled] .btn-success:hover {
 
 .btn-info.focus,
 .btn-info:focus {
-    color: #6f6f6f;
+    color: #efefef;
     background-color: #8fdfef;
     border-color: #1b6d85
 }
 
 .btn-info:hover {
-    color: #6f6f6f;
+    color: #efefef;
     background-color: #8fdfef;
     border-color: #269abc
 }
