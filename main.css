@@ -142,7 +142,7 @@ layout and design of the background of the page.
 .projects {
     background-color: #cfcfcf;
     border: transparent;
-    height: 1000px;
+    height: 705px;
 }
 
 .projects .container {
@@ -152,6 +152,30 @@ layout and design of the background of the page.
     text-align: center;
     font-style: normal;
 }
+.projects h3 {
+    margin: 40px;
+}
+
+/* Photography */
+.photography {
+    background-color: #cfcfcf;
+    border: transparent;
+    height: 705px;
+}
+
+.photography .container {
+    position: relative;
+    top: 120px;
+    bottom: 100px;
+    text-align: center;
+    font-style: normal;    
+}
+
+.photography h3 {
+    font-size: 22px;
+    margin: 20px;
+}
+
 
 /* Contact */
 .contact {
@@ -215,6 +239,7 @@ layout and design of the background of the page.
 }
 
 /* CSS for specific items */
+
 @font-face {
 	font-weight: normal;
 	font-style: normal;
@@ -250,7 +275,7 @@ figure figcaption {
 	padding: 2em;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 10px !important;
+	font-size: 18px !important;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -327,7 +352,7 @@ figure.effect-milo h2 {
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	padding: 1em 1.2em;
+	padding: 0.8em 1em;
 }
 
 figure.effect-milo p {
@@ -338,8 +363,8 @@ figure.effect-milo p {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-40px,0,0);
-	transform: translate3d(-40px,0,0);
+	-webkit-transform: translate3d(-20px,0,0);
+	transform: translate3d(-20px,0,0);
 }
 
 figure.effect-milo:hover p {
@@ -406,7 +431,7 @@ figure.effect-milo:hover p {
     
     padding: 6px 5px;
     border: 2px solid !important;
-	border-radius: 5px;
+	border-radius: 2px;
 	min-width: 150px;
 	max-width: 250px;
 	display: block;
