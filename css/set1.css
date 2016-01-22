@@ -23,11 +23,11 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
+	margin: 20px 1%;
 	min-width: 320px;
 	max-width: 480px;
 	max-height: 360px;
-	width: 48%;
+	width: 38%;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
@@ -38,7 +38,7 @@
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-	opacity: 0.8;
+	opacity: 0.75;
 }
 
 .grid figure figcaption {
@@ -90,7 +90,7 @@
 
 .grid figure p {
 	letter-spacing: 1px;
-	font-size: 68.5%;
+	font-size: 80%;
 }
 
 /* Individual effects */
@@ -798,7 +798,7 @@ figure.effect-ruby:hover p {
 /*---------------*/
 
 figure.effect-milo {
-	background: #2e5d5a;
+	background: #6f6f6f;
 }
 
 figure.effect-milo img {
