@@ -4314,7 +4314,7 @@ tbody.collapse.in {
     font-size: 14px;
     text-align: left;
     list-style: none;
-    background-color: #fff;
+    background-color: #4f4f4f;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
@@ -4340,7 +4340,7 @@ tbody.collapse.in {
     display: block;
     padding: 3px 20px;
     clear: both;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.42857143;
     color: #333;
     white-space: nowrap
@@ -4869,8 +4869,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav .open>a,
 .nav .open>a:focus,
 .nav .open>a:hover {
-    background-color: #eee;
-    border-color: #337ab7
+    background-color: #4f4f4f;
+    border-color: transparent;
 }
 
 .nav .nav-divider {
@@ -4909,8 +4909,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav-tabs>li.active>a:hover {
     color: #555;
     cursor: default;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #4f4f4f;
     border-bottom-color: transparent
 }
 
@@ -4982,7 +4981,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
     color: #fff;
-    background-color: #337ab7
+    background-color: #4f4f4f
 }
 
 .nav-stacked>li {
@@ -5034,7 +5033,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav-tabs-justified>.active>a,
 .nav-tabs-justified>.active>a:focus,
 .nav-tabs-justified>.active>a:hover {
-    border: 1px solid #ddd
+    border: 1px solid #4f4f4f
 }
 
 @media (min-width:768px) {
@@ -5045,7 +5044,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     .nav-tabs-justified>.active>a,
     .nav-tabs-justified>.active>a:focus,
     .nav-tabs-justified>.active>a:hover {
-        border-bottom-color: #fff
+        border-bottom-color: #4f4f4f
     }
 }
 
@@ -5192,7 +5191,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
-    line-height: 20px
+    line-height: 20px;
+    letter-spacing: 3px;
 }
 
 .navbar-brand:focus,
@@ -5435,7 +5435,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default {
-    background-color: #f8f8f8;
+    background-color: #4f4f4f;
     border-color: #e7e7e7
 }
 
@@ -5467,7 +5467,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     color: #555;
-    background-color: #e7e7e7
+    background-color: #4f4f4f
 }
 
 .navbar-default .navbar-nav>.disabled>a,
@@ -5499,7 +5499,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
     color: #555;
-    background-color: #e7e7e7
+    background-color: #4f4f4f
 }
 
 @media (max-width:767px) {
