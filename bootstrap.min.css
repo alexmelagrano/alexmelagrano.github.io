@@ -1435,8 +1435,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    height: 600px;
-    align-content: center !important;
+    height: 450px;
 }
 
 .img-rounded {
@@ -3941,7 +3940,7 @@ fieldset[disabled] .btn-success:hover {
 
 .btn-info {
     color: #efefef;
-    background-color: #6f6f6f;
+    background-color: transparent;
     border-color: #efefef
 }
 
@@ -7563,11 +7562,11 @@ button.close {
 }
 
 .carousel-inner>.next {
-    left: 100%
+    left: 50%
 }
 
 .carousel-inner>.prev {
-    left: -100%
+    left: -50%
 }
 
 .carousel-inner>.next.left,
@@ -7598,13 +7597,15 @@ button.close {
 }
 
 .carousel-control.left {
-    background-repeat: repeat-x
+    background-repeat: repeat-x;
+    background-image: none !important;
 }
 
 .carousel-control.right {
     right: 0;
     left: auto;
-    background-repeat: repeat-x
+    background-repeat: repeat-x;
+    background-image: none !important;    
 }
 
 .carousel-control:focus,
@@ -7728,7 +7729,7 @@ button.close {
         padding-bottom: 30px
     }
     .carousel-indicators {
-        bottom: 20px
+        bottom: -40px
     }
 }
 
