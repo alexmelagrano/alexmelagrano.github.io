@@ -4014,6 +4014,22 @@ fieldset[disabled] .btn-info:hover {
     background-color: #fff
 }
 
+.btn-contact {
+    background-color: #6f6f6f;
+    color: #efefef;
+    border-color: #efefef;
+}
+
+.btn-contact.focus,
+.btn-contact:focus,
+.btn-contact.hover,
+.btn-contact:hover {
+    background-color: #4f4f4f;
+    color: #8fdfef;
+    border-color: #cfcfcf;
+}
+
+
 .btn-warning {
     color: #fff;
     background-color: #f0ad4e;
