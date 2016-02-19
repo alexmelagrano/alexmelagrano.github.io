@@ -7644,19 +7644,22 @@ button.close {
     top: 50%;
     z-index: 5;
     display: inline-block;
-    margin-top: -10px
+    margin-top: -10px;
+    color: #6f6f6f !important;
 }
 
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .icon-prev {
     left: 50%;
-    margin-left: -10px
+    margin-left: -10px;
+    color: #6f6f6f !important;
 }
 
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .icon-next {
     right: 50%;
-    margin-right: -10px
+    margin-right: -10px;
+    color: #6f6f6f !important;
 }
 
 .carousel-control .icon-next,
@@ -7696,7 +7699,7 @@ button.close {
     cursor: pointer;
     background-color: #000\9;
     background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #fff;
+    border: 1px solid #6f6f6f;
     border-radius: 10px
 }
 
@@ -7704,7 +7707,7 @@ button.close {
     width: 12px;
     height: 12px;
     margin: 0;
-    background-color: #fff
+    background-color: #6f6f6f
 }
 
 .carousel-caption {

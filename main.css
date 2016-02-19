@@ -124,7 +124,7 @@ layout and design of the background of the page.
     background-size: cover;
     background-color: #cfcfcf;
     border: transparent;
-    height: 705px;
+    height: 800px;
 }
 
 .services .container {
@@ -142,7 +142,7 @@ layout and design of the background of the page.
 .projects {
     background-color: #cfcfcf;
     border: transparent;
-    height: 705px;
+    height: 800px;
 }
 
 .projects .container {
@@ -171,12 +171,12 @@ layout and design of the background of the page.
 
 /* Photography */
 .photography {
-    background-image: url('http://i.imgur.com/BLvY4RC.jpg');
+    background-image: url('http://i.imgur.com/QxCiv13.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #cfcfcf;
     border: transparent;
-    height: 705px;
+    height: 800px;
 }
 
 .photography .container {
