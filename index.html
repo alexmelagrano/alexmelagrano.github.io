@@ -1,290 +1,73 @@
-<DOCTYPE! html>
-    <html>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A simple, accurate weather source for Boston.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>DS Weather</title>
 
-    <head>
-        <title>Personal Website</title>
-        <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-        <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-<!--        <link rel="stylesheet" href="css/set1.css">-->
-        <link rel="stylesheet" href="bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="main.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    </head>
+    <!-- Add to homescreen for Chrome on Android -->
+<!--
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+-->
 
-    <body>
-        <!-- Navigation Bar -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Alex Melagrano</a>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#about-me">About Me</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
-                                                <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#projects">Programming</a></li>
-                                <li><a href="#photography">Photography</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Main Headline -->
-        <div class="jumbotron" id="jumbotron">
-            <div class="container">
-                <p>Hello, my name is</p>
-                <h1>Alex Melagrano</h1>
-                <p>and I am a</p>
-                <ul class="list-inline">
-                    <li>Programmer</li>
-                    <li>Designer</li>
-                    <li>Northeastern University Student</li>
-                    <li>Photographer</li>
-                    <li>Researcher</li>
-                </ul>
-            </div>
-        </div>
-        <!-- About Me -->
-        <div class="about-me" id="about-me">
-            <div class="container">
-                <img src="http://i.imgur.com/42NK9X7.jpg">
-                <p>I am pursuing a <em><strong style="color: #8fdfef">Bachelors of Science Degree of Computer Science with a Minor in Philosophy</strong></em> at Northeastern University, and am expected to graduate in the Spring of 2019. I have been programming for a year and a half, and primarily enjoy the problem-solving aspect of Computer Science. I am a curious, creative, and thorough individual, and learn from my mistakes. I take pride in hard work, am self-motivated, and above all, love to explore. </p>
-                <a target="_blank" href="Resume.pdf" class="btn btn-info" role="button">RÉSUMÉ</a>
-            </div>
-        </div>
-        <!-- Services -->
-        <div class="services" id="services">
-            <div class="container">
-                <img src="http://i.imgur.com/KkJbxjQ.png" style="margin: -40px; height: 35%;">
-                <div class="row" style="background-color: transparent;">
-                    <div class="col-sm-6">
-                        <figure class="effect-milo">
-                            <img src="http://tympanus.net/Development/HoverEffectIdeas/img/3.jpg" alt="img03">
-                            <figcaption>
-                                <h2>
-                                    Web
-                                    <span>Development</span>
-                                </h2>
-                                <p>I design unique personal websites.</p>
-<!--                                <p>Design both unique personal websites and memorable pages for businesses.</p>-->
-                                <a href="#">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-sm-6">
-                        <figure class="effect-milo">
-                            <img src="http://i.imgur.com/TMLmbSd.jpg" alt="img03">
-                            <figcaption>
-                                <h2>
-                                    Photo
-                                    <span>graphy</span>
-                                </h2>
-                                <p>From concerts and special events to classic portraits, I've got you covered.</p>
-                                <a href="#">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-                <a href="#contact" class="btn btn-info btn-contact" role="button">CONTACT ME FOR MORE INFO</a>
-            </div>
-        </div>
-        <!-- Projects -->
-        <div class="projects" id="projects">
-            <div class="container">
-                <img src="http://i.imgur.com/Od3qJLB.jpg" style="margin-top: -35px; margin-bottom: 0px; height: 35%;">
-                <h5>JAVA</h5>
-                <div class="row">
-                    <div class="col-sm-4" style="padding: 10px; z-index: 5;">
-                        <figure class="effect-milo">
-                            <img src="http://i.imgur.com/oHWRN6s.jpg" alt="img03">
-                            <figcaption>
-                                <h2>
-                                    Maze
-                                    <span>Game</span>
-                                </h2>
-                                <p>Choose a difficulty, then build and solve you maze.</p>
-                                <a href="#">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-sm-4" style="padding: 10px;">
-                        <figure class="effect-milo">
-                            <img src="http://i.imgur.com/89JreDN.jpg" alt="img03">
-                            <figcaption>
-                                <h2>
-                                    Music
-                                    <span>Editor</span>
-                                </h2>
-                                <p>Compose original pieces, and hear your song played back to you.</p>
-                                <a href="#">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <div class="col-sm-4" style="padding: 10px;">
-                        <figure class="effect-milo">
-                            <img src="http://i.imgur.com/ALbdMAl.jpg" alt="img03">
-                            <figcaption>
-                                <h2>
-                                    Forbidden
-                                    <span>Island</span>
-                                </h2>
-                                <p>Collect the parts to escape the sinking island safely.</p>
-                                <a href="#">View more</a>
-                            </figcaption>
-                        </figure>
-                    </div>                    
-                </div>
-            </div>
-        </div>
-        <!-- Photography -->
-        <div class="photography" id="photography">
-            <div class="container">
-                <!-- Photography -->
-                <img src="http://i.imgur.com/YeyeZnx.png">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel" style="border: 2px solid; border-color: #6f6f6f; padding: 5px;">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                        <li data-target="#myCarousel" data-slide-to="4"></li>
-                        <li data-target="#myCarousel" data-slide-to="5"></li>
-                        <li data-target="#myCarousel" data-slide-to="6"></li>
-                        <li data-target="#myCarousel" data-slide-to="7"></li>
-                        <li data-target="#myCarousel" data-slide-to="8"></li>
-                        <li data-target="#myCarousel" data-slide-to="9"></li>
-                        <li data-target="#myCarousel" data-slide-to="10"></li>
-                        <li data-target="#myCarousel" data-slide-to="11"></li>
-                        <li data-target="#myCarousel" data-slide-to="12"></li>
-                        <li data-target="#myCarousel" data-slide-to="13"></li>
-                        <li data-target="#myCarousel" data-slide-to="14"></li>
-                        <li data-target="#myCarousel" data-slide-to="15"></li>
-                        <li data-target="#myCarousel" data-slide-to="16"></li>
-                    </ol>
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <img src="http://i.imgur.com/tE1dP2K.jpg" alt="Gwen bw">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/MtXaPZG.jpg" alt="TV Tower 1">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/oy3opB5.jpg" alt="Dust">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/NCkupnk.jpg" alt="Hellogoodbye 2">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/EfgVW0B.jpg" alt="Gwen color">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/BFadDOJ.jpg" alt="Color streak">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/PEupFwQ.jpg" alt="Marie">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/Aoa4kgm.jpg" alt="Memorial Day">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/sgiFWxS.jpg" alt="MOMA">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/rFeODwB.jpg" alt="Neon">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/PCjKe9J.jpg" alt="Smith roof">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/wlXUNW0.jpg" alt="Sorrento">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/wr7P0vf.jpg" alt="Haze">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/iQxIPtj.jpg" alt="TV Tower 2">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/oC8xsHM.jpg" alt="Boston">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/04mvJ7T.jpg" alt="Hellogoodbye">
-                        </div>
-                        <div class="item">
-                            <img src="http://i.imgur.com/rAs4ft9.jpg" alt="cafune">
-                        </div>
-                    </div>
-                    <!-- Left and right controls -->
-                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- Contact -->
-        <div class="contact" id="contact">
-            <div class="container">
-                <img src="http://i.imgur.com/EOQG3Jm.jpg">
-                <form action="http://formspree.io/alexmelagrano@gmail.com"
-      method="POST">
-                    <br>
-                    <input type="text" name="name" size="60" style="background-color: #efefef; border: 1px solid #9f9f9f; border-radius: 3px; font-family: Verdana sans-serif; font-size: 16px; padding: 10px;">
-                    <br>
-                    <br>
-                    <input type="email" name="_replyto" size="60" style="background-color: #efefef; border: 1px solid #9f9f9f; border-radius: 3px; font-family: Verdana sans-serif; font-size: 16px; padding: 10px;">
-                    <br>
-                    <br>
-                    <input type="text" name="message" size="60" style="background-color: #efefef; border: 1px solid #9f9f9f; border-radius: 3px; font-family: Verdana sans-serif; font-size: 16px; padding: 10px;"> 
-                    <br>
-                    <br>
-                    <input type="submit" value="SEND" size="20" style="background-color: #6f6f6f; margin-top: 20px; width: 110px; height: 40px; margin: 20px; border: 1px solid #efefef; border-radius: 3px; font-size: 18px; color: #efefef">
-                </form>
-            </div>
-        </div>
-        <!-- Footer -->
-        <div class="footer">
-            <div class="container">
-                <h6><img style="height: 25px;" src="http://i.imgur.com/TbW3QR7.png">alexmelagrano@gmail.com</h6>
-                <h6><img style="height: 20px; margin-right: 5px;" src="http://i.imgur.com/lmMkVXj.png">(203) 247-3232</h6>
-                <ul class="list-inline">
-                    <li>
-                        <a target="_blank" href="https://github.com/alexmelagrano">
-                            <img style="width: 50px;" src="http://i.imgur.com/Pixmpuu.png"></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/alexmelagrano">
-                            <img style="width: 50px;" src="http://i.imgur.com/7R2EdbZ.png"></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.flickr.com/photos/125579831@N06/">
-                            <img style="width: 50px;" src="http://i.imgur.com/B3LAx5w.png" </a></li>
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/alex3232_/">
-                            <img style="width: 50px;" src="http://i.imgur.com/TU6SXKC.png"></a>
-                    </li>
-                </ul>
-                <p>© Alex Melagrano, 2016</p>
-            </div>
-        </div>
-    </body>
+    <!-- Add to homescreen for Safari on iOS -->
+<!--
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+    <link rel="icon" href="favicon.ico">
+-->
 
-    </html>
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+<!--
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+-->
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+      
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="sass/main.css">
+
+  </head>
+    
+  <body ng-app="DarkSky" >
+
+    <!-- Header Import Location -->
+    <asdf></asdf>
+
+    <!-- Main App Info Import Location -->
+    <div ng-view=""></div>
+
+    <!-- Footer Import Location -->
+    <foot></foot>
+
+    <!-- Loading AngularJS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.js"></script>
+
+    <!-- App -->
+    <script src="app/app.js"></script>
+
+    <!-- Pages -->
+    <script src="app/main/main.controller.js"></script>
+    <script src="app/main/main.js"></script>
+
+    <!-- Services -->
+    <script src="app/services/forecast.js"></script>
+      
+    <!-- Directives -->
+    <script src="components/header/navHeader.controller.js"></script>
+    <script src="components/header/navHeader.directive.js"></script>
+    <script src="components/footer/footer.controller.js"></script>
+    <script src="components/footer/footer.directive.js"></script>
+      
+  </body>
+</html>
