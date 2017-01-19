@@ -8,6 +8,8 @@ angular.module('DarkSky').controller('MainController', ['$scope', 'forecast', 'l
         console.log('Retrieved data from the Dark Sky API');
         console.log(data);
 
+        $scope.weatherData = data;
+        
         // TODO :: use Google's Geocoding API to do an address lookup
         var latLong = {
             lat: data.latitude,
