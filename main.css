@@ -1,23 +1,385 @@
-/*
-Errno::ENOENT: No such file or directory - main.sass
-
-Backtrace:
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:484:in `read'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:484:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/plugin.rb:109:in `method_missing'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
-/usr/bin/sass:23:in `load'
-/usr/bin/sass:23:in `<main>'
+/* 
+Main CSS file; stylesheet contains data for the 
+layout and design of the background of the page.
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory - main.sass"; }
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #4f4f4f;
+    color: #efefef;
+    font-family: Avantgarde, sans-serif;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    z-index: 100;
+    position: fixed;
+    margin-bottom: 0;
+    border: transparent;
+    width: 100%;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #efefef !important;
+}
+
+.navbar .navbar-brand {
+    margin-top: 4px;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #8fdfef !important;
+    font-weight: 200 !important;
+    background-color: #3f3f3f !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #efefef !important;
+}
+
+
+/* Jumbotron/Home Page */
+
+.jumbotron {
+    background-image: url('http://i.imgur.com/L1vUROX.jpg');
+    height: 705px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    color: #efefef;
+    border: transparent;
+    margin-bottom: 0px !important;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 150px;
+}
+
+.jumbotron h1 {
+    outline: none;
+    margin: 30px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.jumbotron p {
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.jumbotron ul {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.jumbotron li {
+    font-size: 16px;
+}
+
+
+/* About Me */
+
+.about-me {
+    background-color: #6f6f6f;
+    height: 705px;
+}
+
+.about-me .container {
+    position: relative;
+    top: 100px;
+    bottom: 100px;
+    text-align: center;
+    font-style: normal;
+}
+.about-me img {
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.about-me p {
+    font-family: Avantgarde, sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    color: #efefef;
+    margin-bottom: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+/* Services */
+
+.services {
+    background-image: url('http://i.imgur.com/BLvY4RC.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cfcfcf;
+    border: transparent;
+    height: 800px;
+}
+
+.services .container {
+    position: relative;
+    top: 100px;
+    bottom: 120px;
+    text-align: center;
+    font-style: normal;
+}
+
+/* see "MILO" CSS */
+
+/* Projects */
+
+.projects {
+    background-color: #cfcfcf;
+    border: transparent;
+    height: 800px;
+}
+
+.projects .container {
+    position: relative;
+    top: 80px;
+    bottom: 100px;
+    text-align: center;
+    font-style: normal;
+}
+
+.projects h5 {
+    float: left;
+    color: #6f6f6f;
+    font-family: Avantgarde, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 230px;
+    margin-bottom: -5px;
+}
+
+/* Photography */
+.photography {
+    background-image: url('http://i.imgur.com/QxCiv13.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cfcfcf;
+    border: transparent;
+    height: 800px;
+}
+
+.photography .container {
+    position: relative;
+    top: 70px;
+    bottom: 90px;
+    text-align: center;
+    font-style: normal;    
+}
+
+.photography img {
+    margin: -20px;
+}
+
+
+/* Contact */
+.contact {
+    background-color: #6f6f6f;
+    border: transparent;
+    height: 705px;
+}
+
+.contact .container {
+    position: relative;
+    top: 110px;
+    bottom: 100px;
+    text-align: center;
+    font-style: normal;
+}
+.contact img {
+    height: 200px;
+}
+.contact h5 {
+    font-family: Avantgarde, sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    color: #8fdfef;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+
+/* Footer */
+.footer {
+    background-image: url('http://i.imgur.com/XE06GMb.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: transparent;
+    height: 300px;
+}
+
+.footer .container {
+    position: relative;
+    top: 60px;
+    bottom: 60px;
+    text-align: center;
+    font-style: normal;
+}
+
+.footer h6 {
+    font-family: Avantgarde, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5f5f5f;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-family: Avantgarde, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #5f5f5f;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+/* CSS for specific items */
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'feathericons';
+	src:url('../fonts/feathericons/feathericons.eot?-8is7zf');
+	src:url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf') format('embedded-opentype'),
+		url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),
+		url('../fonts/feathericons/feathericons.ttf?-8is7zf') format('truetype'),
+		url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons') format('svg');
+}
+
+/* Common style */
+figure {
+	position: relative;
+	overflow: hidden;
+	min-width: 320px;
+	max-width: 480px;
+	max-height: 300px;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.75;
+}
+
+figure figcaption {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px !important;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure figcaption::before,
+figure figcaption::after {
+	pointer-events: none;
+}
+
+figure figcaption,
+figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+figure figcaption > a {
+	z-index: 30;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+figure h2 {
+    letter-spacing: 4px;
+	word-spacing: -0.35em;
+	font-weight: 300;
+}
+
+figure h2 span {
+    letter-spacing: normal !important;
+	font-weight: 800;
+}
+
+figure h2,
+figure p {
+	margin: 0;
+}
+
+figure p {
+	letter-spacing: 1px;
+	font-size: 80%;
+}
+
+figure.effect-milo {
+	background: #6f6f6f;
+}
+
+figure.effect-milo img {
+	max-width: none;
+	width: -webkit-calc(100% + 60px);
+	width: calc(100% + 60px);
+	opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-30px,0,0) scale(1.12);
+	transform: translate3d(-30px,0,0) scale(1.12);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-milo:hover img {
+	opacity: 0.5;
+	-webkit-transform: translate3d(0,0,0) scale(1);
+	transform: translate3d(0,0,0) scale(1);
+}
+
+figure.effect-milo h2 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 0.8em 1em;
+}
+
+figure.effect-milo p {
+	padding: 0 10px 0 0;
+	width: 50%;
+	border-right: 1px solid #fff;
+	text-align: right;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-20px,0,0);
+	transform: translate3d(-20px,0,0);
+}
+
+figure.effect-milo:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
